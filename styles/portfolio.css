@@ -27,6 +27,10 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+#last-button{
+    text-align: center;
+    margin-top: 30px;
+}
 /* nav related style */
 nav{
     display: flex;
@@ -148,4 +152,39 @@ main{
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+/* resume section */
+.resume-container{
+    display: inline;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 150px;
+}
+.resume-column{
+    /* margin-right: 60px; */
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+/* footer section */
+footer{
+    background: #FFF8F3;
 }
