@@ -211,3 +211,40 @@ footer{
     border: 0;
     width: 100%;
 }
+
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    footer, .resume-container, .skill-container, .about-info-container, nav, .banner{
+        flex-direction: column;
+    }
+    .skill-container{
+        gap: 10px;
+    }
+    .resume-container, nav{
+        margin: 0 20px;
+    }
+    nav{
+        align-items: flex-start;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-descripition{
+        width: 70%;
+    }
+    .profile-picture{
+        width: 100%;
+        padding: 20px;
+    }
+    footer, #what-i-do-description, .about, .banner-content, .banner{
+        padding: 20px;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 70%;
+    }
+    .footer-item{
+        width: 100%;
+    }
+}
